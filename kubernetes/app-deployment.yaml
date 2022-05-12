@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - envFrom:
-      - configMapRef:
+        - configMapRef:
             name: feature-toggle
         - secretRef:
             name: db-secret
